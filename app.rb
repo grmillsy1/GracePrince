@@ -17,11 +17,11 @@ class GracePrince < Sinatra::Base
     erb :'./group/one'
   end
 
-  get '/group/two' do
+  get '/group_two' do
     erb :'./group/two'
   end
 
-  get '/group/three' do
+  get '/group_three' do
     erb :'./group/three'
   end
 
