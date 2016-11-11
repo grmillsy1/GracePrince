@@ -1,0 +1,17 @@
+ul.header_list li{
+  display: inline;
+  list-style-type: none;
+  margin: 50px;
+}
+ul.footer_list li{
+  display: inline;
+  list-style-type: none;
+  margin: 25px;
+}
+a:visited, a:link, a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: green;
+}
