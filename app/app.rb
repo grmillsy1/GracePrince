@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  'Grace prince website'
+  'Grace prince website.. HEY GRACE'
 end
