@@ -17,7 +17,11 @@ a:hover {
 }
 
 .footer-container {
- position:absolute;;
+ position:fixed;
  bottom:50px;
  width: 100%;
+}
+
+.main_picture{
+
 }

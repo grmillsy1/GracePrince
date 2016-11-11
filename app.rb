@@ -13,7 +13,7 @@ class GracePrince < Sinatra::Base
     'oooooops'
   end
 
-  get '/group/one' do
+  get '/group_one' do
     erb :'./group/one'
   end
 
