@@ -1,4 +1,5 @@
-require 'rubygems'
-require File.join(File.dirname(__FILE__), 'app/app.rb')
 
-run GracePrince
+require 'rubygems'
+require File.join(File.dirname(__FILE__), 'app.rb')
+
+run Sinatra::GracePrince
