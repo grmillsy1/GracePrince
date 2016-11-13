@@ -8,12 +8,18 @@ video {
     height: 100%;
 }
 
+.pic {
+  width: 50%;
+  height: 50%;
+}
+
 ul.header_list li{
   display: inline;
   margin: 50px;
   font-size: 13pt;
-  color: #B73B3C !important;
+  color: #B73B3C, !important;
 }
+
 ul.footer_list li{
   display: inline;
   margin: 25px;
