@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class GracePrince < Sinatra::Base
   get '/' do
-    erb :video_view
+    erb :video_view, :layout => false
   end
 
   get '/index' do
