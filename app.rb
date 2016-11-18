@@ -9,19 +9,15 @@ class GracePrince < Sinatra::Base
     erb :index
   end
 
-  get '/group' do
-    'oooooops'
-  end
-
-  get '/group_one' do
+  get '/ceppo' do
     erb :'./group/one'
   end
 
-  get '/group_two' do
+  get '/scolpire' do
     erb :'./group/two'
   end
 
-  get '/group_three' do
+  get '/linea' do
     erb :'./group/three'
   end
 
