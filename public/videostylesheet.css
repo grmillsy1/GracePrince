@@ -1,18 +1,16 @@
-
-video {
-    position: relative;;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    min-height: 100%;
-    min-width: 100%;
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
 }
 
-#gracelogo {
-  position: absolute;
-  font-weight:100;
-  color: white;
-  z-index: 2;
-  left: 50%;
-  top: 50%;
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100
 }
