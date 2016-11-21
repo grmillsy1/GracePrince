@@ -25,21 +25,14 @@ class GracePrince < Sinatra::Base
     erb :'./footer/press'
   end
 
-  get '/process' do
-    erb :'./footer/process'
+  get '/past' do
+    erb :'./footer/past'
   end
 
-  get '/designwork' do
-    erb :'./footer/design_work'
-  end
-
-  get '/book' do
-    erb :'./footer/book'
-  end
-
-  get '/contact' do
+  get '/people' do
     erb :'./footer/contact'
   end
+
 
 
   # start the server if ruby file executed directly
