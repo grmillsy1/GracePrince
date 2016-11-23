@@ -1,5 +1,13 @@
+.lin-1st-line{
+  position: relative;
+}
+
 img#lin-1 {
   margin-left: 200px;
+}
+
+img#label-1 {
+  height: 100px;
 }
 
 img#lin-2a {
