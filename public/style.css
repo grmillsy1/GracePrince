@@ -29,13 +29,27 @@ div.first-line {
   margin-top: 100px !important
 }
 
+.PERSON {
+
+}
+
 img#place-holder {
   height: 550px;
   margin-right: 50px;
+  z-index: 5;
+  position: relative;
 }
 
 img#person-photo {
   height: 550px;
+  z-index: 6;
+}
+
+#email {
+  position: absolute;;
+  top: 280px;
+  left: 780px;
+  z-index: 7;
 }
 
 .design_work_view {
