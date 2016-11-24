@@ -7,6 +7,13 @@ img#scolpire-2 {
   margin-top: 200px;
 }
 
+img#s-label-1  {
+  height: 100px;
+  margin-left: -250px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
 img#scolpire-3 {
   margin-top: 200px;
 }
@@ -14,6 +21,11 @@ img#scolpire-3 {
 img#scolpire-4a {
   margin-top: 200px;
   margin-right: 25px;
+}
+
+img#s-label-2  {
+  height: 100px;
+  margin-bottom: 380px;
 }
 
 img#scolpire-5a {
@@ -36,6 +48,11 @@ img#scolpire-8-add {
   margin-top: 200px;
   margin-left: 200px;
 }
+img#s-label-3  {
+  height: 100px;
+  margin-bottom: 380px;
+  margin-left: 100px;
+}
 img#scolpire-9 {
   margin-top: 200px;
   margin-left: 600px;
@@ -43,6 +60,6 @@ img#scolpire-9 {
 
 img#scolpire-10 {
   margin-top: 200px;
-  margin-left: 50px;
+  margin-left: 150px;
   margin-bottom: 200px;
 }
