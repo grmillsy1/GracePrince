@@ -19,8 +19,15 @@ img#lin-4a {
   margin-right: 10px;
 }
 
+#lin-3rd-line {
+  height: 200px;
+}
+/*.lin-4th-line {
+  margin-top: -500px !important;
+}*/
+
 img#lin-5 {
-  margin-top: 200px;
+  margin-top: 700px;
 }
 
 img#label-2 {
@@ -33,14 +40,17 @@ img#lin-6a {
   margin-left: 10px;
   margin-top: 200px;
   margin-right: 35px;
+  z-index: 9px;
 }
 
 img#lin-6b {
   margin-bottom: 50px;
+  z-index: 10;
 }
 
 img#lin-7 {
   margin-top: 200px;
+
 }
 
 img#lin-8 {
