@@ -1,7 +1,7 @@
 
 $(function() {
   var controller = new ScrollMagic.Controller();
-//Scenes 1-8 are for Ceppo
+//Scenes 1-8 are for Linea
 
 var firstScenePin = new ScrollMagic.Scene({
   triggerElement: '#lin-2nd-line',
@@ -10,10 +10,10 @@ var firstScenePin = new ScrollMagic.Scene({
   duration: 300
 })
   .setPin("#lin-2nd-line", {pushFollowers: true})
-  .addIndicators()
+  // .addIndicators()
   .addTo(controller);
 
-  var firstCeppoTween = TweenMax.to('#lin-2nd-line', 1, {
+  var firstLineaTween = TweenMax.to('#lin-2nd-line', 1, {
     transform: 'translate3d(-1200px, 0, 0)'
   })
   var firstScene = new ScrollMagic.Scene({
@@ -21,11 +21,11 @@ var firstScenePin = new ScrollMagic.Scene({
     offset: 450,
     duration: 200
   })
-    .setTween(firstCeppoTween)
+    .setTween(firstLineaTween)
     // .addIndicators()
     .addTo(controller);
 
-  var secondCeppoTween = TweenMax.to('#lin-3rd-line', 1, {
+  var secondLineaTween = TweenMax.to('#lin-3rd-line', 1, {
     transform: 'translate3d(0, -500px, 0)'
   })
   var secondScene = new ScrollMagic.Scene({
@@ -33,11 +33,11 @@ var firstScenePin = new ScrollMagic.Scene({
     offset: 400,
     duration: 200
   })
-    .setTween(secondCeppoTween)
+    .setTween(secondLineaTween)
     // .addIndicators()
     .addTo(controller);
 
-  var fourBCeppoTween = TweenMax.to('#lin-4b', 1, {
+  var fourBLineaTween = TweenMax.to('#lin-4b', 1, {
     transform: 'translate3d(0, 500px, 0)'
   })
   var thirdScene = new ScrollMagic.Scene({
@@ -45,11 +45,11 @@ var firstScenePin = new ScrollMagic.Scene({
     offset: 500,
     duration: 600
   })
-    .setTween(fourBCeppoTween)
+    .setTween(fourBLineaTween)
     // .addIndicators()
     .addTo(controller);
 
-  var sixBCeppoTween = TweenMax.to('#lin-6b', 1, {
+  var sixBLineaTween = TweenMax.to('#lin-6b', 1, {
     transform: 'translate3d(-1200px, 0, 0)'
   })
   var fourthScene = new ScrollMagic.Scene({
@@ -57,12 +57,12 @@ var firstScenePin = new ScrollMagic.Scene({
     offset: 400,
     duration: 300
   })
-    .setTween(sixBCeppoTween)
+    .setTween(sixBCLineaTween)
     // .addIndicators()
     .addTo(controller);
 
 
-  var sevenCeppoTween = TweenMax.to('#lin-7', 1, {
+  var sevenLineaTween = TweenMax.to('#lin-7', 1, {
     transform: 'translate3d(800px, 400px, 0)'
   })
   var fithScene = new ScrollMagic.Scene({
@@ -70,7 +70,7 @@ var firstScenePin = new ScrollMagic.Scene({
     offset:200,
     duration: 300
   })
-    .setTween(sevenCeppoTween)
+    .setTween(sevenLineaTween)
     // .addIndicators()
     .addTo(controller);
 
@@ -83,7 +83,7 @@ var firstScenePin = new ScrollMagic.Scene({
     // .addIndicators()
     .addTo(controller);
 
-  var nineACeppoTween = TweenMax.to('#lin-9a', 1, {
+  var nineALineaTween = TweenMax.to('#lin-9a', 1, {
     transform: 'translate3d(800px, -400px, 0)'
   })
   var sixthSceneTween = new ScrollMagic.Scene({
@@ -91,11 +91,11 @@ var firstScenePin = new ScrollMagic.Scene({
     duration: 300,
     offset: 400
   })
-    .setTween(nineACeppoTween)
+    .setTween(nineALineaTween)
     // .addIndicators()
     .addTo(controller);
 
-  var nineBCeppoTween = TweenMax.to('#lin-9b', 1, {
+  var nineBLineaTween = TweenMax.to('#lin-9b', 1, {
     transform: 'translate3d(-1200px, 400px, 0)'
   })
   var sixthSceneTweenB = new ScrollMagic.Scene({
@@ -103,7 +103,7 @@ var firstScenePin = new ScrollMagic.Scene({
     duration: 300,
     offset: 400
   })
-    .setTween(nineBCeppoTween)
+    .setTween(nineBLineaTween)
     // .addIndicators()
     .addTo(controller);
 
@@ -117,7 +117,7 @@ var seventhScene = new ScrollMagic.Scene({
   // .addIndicators()
   .addTo(controller);
 
-  var elevenCeppoTween = TweenMax.to('#lin-11', 1, {
+  var elevenLineaTween = TweenMax.to('#lin-11', 1, {
     transform: 'translate3d(800px, 800px, 0)'
   })
   var seventhSceneTween = new ScrollMagic.Scene({
@@ -126,7 +126,7 @@ var seventhScene = new ScrollMagic.Scene({
     triggerHook: 0,
     offset: 350
   })
-    .setTween(elevenCeppoTween)
+    .setTween(elevenLineaTween)
     // .addIndicators()
     .addTo(controller);
 
@@ -139,7 +139,7 @@ var eigthScene = new ScrollMagic.Scene({
   // .addIndicators()
   .addTo(controller);
 
-  var twelveACeppoTween = TweenMax.to('#lin-12a', 1, {
+  var twelveALineaTween = TweenMax.to('#lin-12a', 1, {
     transform: 'translate3d(-800px, 0, 0)'
   })
   var twelveASceneTween = new ScrollMagic.Scene({
@@ -148,11 +148,11 @@ var eigthScene = new ScrollMagic.Scene({
     triggerHook: 0,
     offset: 50
   })
-    .setTween(twelveACeppoTween)
+    .setTween(twelveALineaTween)
     // .addIndicators()
     .addTo(controller);
 
-  var twelveBCeppoTween = TweenMax.to('#lin-12b', 1, {
+  var twelveBLineaTween = TweenMax.to('#lin-12b', 1, {
     transform: 'translate3d(-1000px, 0, 0)'
   })
   var twelveBSceneTween = new ScrollMagic.Scene({
@@ -161,7 +161,7 @@ var eigthScene = new ScrollMagic.Scene({
     triggerHook: 0,
     offset: 120
   })
-    .setTween(twelveBCeppoTween)
+    .setTween(twelveBLineaTween)
     // .addIndicators()
     .addTo(controller);
 });
