@@ -1,4 +1,3 @@
-// first function is to get the background colour to change at a trigger point.
 
 $(function() {
   var controller = new ScrollMagic.Controller();
@@ -12,7 +11,7 @@ $(function() {
     duration: 200
   })
     .setTween(firstCeppoTween)
-    // .addIndicators()
+    .addIndicators()
     .addTo(controller);
 
   var secondCeppoTween = TweenMax.to('#lin-3rd-line', 1, {
@@ -23,9 +22,9 @@ $(function() {
     offset: 400,
     duration: 200
   })
-  .setTween(secondCeppoTween)
-  // .addIndicators()
-  .addTo(controller);
+    .setTween(secondCeppoTween)
+    .addIndicators()
+    .addTo(controller);
 
   var fourBCeppoTween = TweenMax.to('#lin-4b', 1, {
     transform: 'translate3d(0, 500px, 0)'
@@ -36,7 +35,7 @@ $(function() {
     duration: 600
   })
     .setTween(fourBCeppoTween)
-    // .addIndicators()
+    .addIndicators()
     .addTo(controller);
 
   var sixBCeppoTween = TweenMax.to('#lin-6b', 1, {
@@ -48,7 +47,7 @@ $(function() {
     duration: 300
   })
     .setTween(sixBCeppoTween)
-    // .addIndicators()
+    .addIndicators()
     .addTo(controller);
 
   var sevenCeppoTween = TweenMax.to('#lin-7', 1, {
@@ -60,14 +59,97 @@ $(function() {
     duration: 300
   })
     .setTween(sevenCeppoTween)
-    // .addIndicators()
+    .addIndicators()
     .addTo(controller);
 
   var sixthScene = new ScrollMagic.Scene({
     triggerElement: '#lin-9th-line',
-    triggerHook: 0,
-    duration: 300
+    duration: 300,
+    offset: 400
   })
     .setPin("#lin-9th-line", {pushFollowers: true})
+    .addIndicators()
+    .addTo(controller);
+
+  var nineACeppoTween = TweenMax.to('#lin-9a', 1, {
+    transform: 'translate3d(800px, -400px, 0)'
+  })
+  var sixthSceneTween = new ScrollMagic.Scene({
+    triggerElement: '#lin-9th-line',
+    duration: 300,
+    offset: 400
+  })
+    .setTween(nineACeppoTween)
+    .addIndicators()
+    .addTo(controller);
+
+  var nineBCeppoTween = TweenMax.to('#lin-9b', 1, {
+    transform: 'translate3d(-1200px, 400px, 0)'
+  })
+  var sixthSceneTweenB = new ScrollMagic.Scene({
+    triggerElement: '#lin-9th-line',
+    duration: 300,
+    offset: 400
+  })
+    .setTween(nineBCeppoTween)
+    .addIndicators()
+    .addTo(controller);
+
+var seventhScene = new ScrollMagic.Scene({
+  triggerElement: '#lin-11th-line',
+  triggerHook: 0,
+  offset: 250,
+  duration: 300
+})
+  .setPin("#lin-11th-line", {pushFollowers: true})
+  .addIndicators()
+  .addTo(controller);
+
+  var elevenCeppoTween = TweenMax.to('#lin-11', 1, {
+    transform: 'translate3d(800px, 800px, 0)'
+  })
+  var seventhSceneTween = new ScrollMagic.Scene({
+    triggerElement: '#lin-11th-line',
+    duration: 300,
+    triggerHook: 0,
+    offset: 350
+  })
+    .setTween(elevenCeppoTween)
+    .addIndicators()
+    .addTo(controller);
+
+var eigthScene = new ScrollMagic.Scene({
+  triggerElement: '#lin-12th-line',
+  triggerHook: 0,
+  duration: 300
+})
+  .setPin("#lin-12th-line", {pushFollowers: true})
+  .addIndicators()
+  .addTo(controller);
+
+  var twelveACeppoTween = TweenMax.to('#lin-12a', 1, {
+    transform: 'translate3d(-800px, 0, 0)'
+  })
+  var twelveASceneTween = new ScrollMagic.Scene({
+    triggerElement: '#lin-12th-line',
+    duration: 300,
+    triggerHook: 0,
+    offset: 50
+  })
+    .setTween(twelveACeppoTween)
+    .addIndicators()
+    .addTo(controller);
+
+  var twelveBCeppoTween = TweenMax.to('#lin-12b', 1, {
+    transform: 'translate3d(-1000px, 0, 0)'
+  })
+  var twelveBSceneTween = new ScrollMagic.Scene({
+    triggerElement: '#lin-12th-line',
+    duration: 300,
+    triggerHook: 0,
+    offset: 120
+  })
+    .setTween(twelveBCeppoTween)
+    .addIndicators()
     .addTo(controller);
 });

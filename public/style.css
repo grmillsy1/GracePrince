@@ -2,14 +2,11 @@
 * {
   font-family: 'Squada One', cursive;
 }
-
-body.index_page{
+.index_page{
   width: 65%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-.group_header {
-  width: 100%;
 }
 
 ul.header_list {
@@ -26,9 +23,6 @@ ul.header_list img{
   width: 69%;
 }
 
-.group_footer {
-
-}
 
 ul.footer_list {
   display: table;
@@ -50,8 +44,6 @@ ul.footer_list li {
   float: right;
 }
 
-
-
 a:visited, a:link, a:active {
   text-decoration: none;
   color:#B9B9B9;
@@ -63,10 +55,6 @@ a:hover {
 
 div.first-line {
   margin-top: 100px !important
-}
-
-.PERSON {
-
 }
 
 img#place-holder {
