@@ -1,13 +1,24 @@
 
 $(function() {
   var controller = new ScrollMagic.Controller();
+//Scenes 1-8 are for Ceppo
+
+var firstScenePin = new ScrollMagic.Scene({
+  triggerElement: '#lin-2nd-line',
+  triggerHook: 0,
+  offset: 200,
+  duration: 300
+})
+  .setPin("#lin-2nd-line", {pushFollowers: true})
+  .addIndicators()
+  .addTo(controller);
 
   var firstCeppoTween = TweenMax.to('#lin-2nd-line', 1, {
     transform: 'translate3d(-1200px, 0, 0)'
   })
   var firstScene = new ScrollMagic.Scene({
     triggerElement: '#lin-2nd-line',
-    offset: 400,
+    offset: 450,
     duration: 200
   })
     .setTween(firstCeppoTween)
@@ -38,6 +49,17 @@ $(function() {
     // .addIndicators()
     .addTo(controller);
 
+    var sixACeppoTween = TweenMax.to('#lin-6a', 1, {
+      transform: 'translate3d(1px, 0, 0)'
+    })
+    var fourthScene2 = new ScrollMagic.Scene({
+      triggerElement: '#lin-6th-line',
+      offset: 0,
+      duration: 300
+    })
+      .setTween(sixACeppoTween)
+      // .addIndicators()
+      .addTo(controller);
   var sixBCeppoTween = TweenMax.to('#lin-6b', 1, {
     transform: 'translate3d(-1200px, 0, 0)'
   })
@@ -49,6 +71,7 @@ $(function() {
     .setTween(sixBCeppoTween)
     // .addIndicators()
     .addTo(controller);
+
 
   var sevenCeppoTween = TweenMax.to('#lin-7', 1, {
     transform: 'translate3d(800px, 400px, 0)'
