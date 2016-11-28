@@ -3,18 +3,54 @@
   font-family: 'Squada One', cursive;
 }
 
-ul.header_list li {
-  display: inline;
-  margin: 25px;
-  list-style: none;
+body.index_page{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group_header {
+  width: 100%;
 }
 
+ul.header_list {
+  display: table;
+  width: 100%;
+  padding: 0;
+}
+
+ul.header_list li{
+  display: table-cell;
+}
+
+ul.header_list img{
+  width: 69%;
+}
+
+.group_footer {
+
+}
+
+ul.footer_list {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 0;
+}
 ul.footer_list li {
-  display: inline;
-  margin: 160px;
+  display: table-cell;
   font-size: 10pt;
   list-style: none;
+  margin: 0;
 }
+#footer1{
+  float: left;
+}
+
+#footer3{
+  float: right;
+}
+
+
 
 a:visited, a:link, a:active {
   text-decoration: none;
