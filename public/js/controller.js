@@ -57,7 +57,7 @@ var firstScenePin = new ScrollMagic.Scene({
     offset: 400,
     duration: 300
   })
-    .setTween(sixBCLineaTween)
+    .setTween(sixBLineaTween)
     // .addIndicators()
     .addTo(controller);
 
