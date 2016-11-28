@@ -49,17 +49,6 @@ var firstScenePin = new ScrollMagic.Scene({
     // .addIndicators()
     .addTo(controller);
 
-    var sixACeppoTween = TweenMax.to('#lin-6a', 1, {
-      transform: 'translate3d(1px, 0, 0)'
-    })
-    var fourthScene2 = new ScrollMagic.Scene({
-      triggerElement: '#lin-6th-line',
-      offset: 0,
-      duration: 300
-    })
-      .setTween(sixACeppoTween)
-      // .addIndicators()
-      .addTo(controller);
   var sixBCeppoTween = TweenMax.to('#lin-6b', 1, {
     transform: 'translate3d(-1200px, 0, 0)'
   })
