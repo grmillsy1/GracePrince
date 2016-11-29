@@ -8,7 +8,7 @@ var ninthScene = new ScrollMagic.Scene({
   offset: 160
 })
   .setPin("#second-line", {pushFollowers: false})
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 var twoCeppoTween = TweenMax.to('#ceppo-2', 3, {
   transform: 'translate3d(600px, 0, 0)'
@@ -20,7 +20,7 @@ var twoCeppoSceneTween = new ScrollMagic.Scene({
   offset: 250
 })
   .setTween(twoCeppoTween)
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 var tenthScene = new ScrollMagic.Scene({
   triggerElement: '#third-line',
@@ -29,7 +29,7 @@ var tenthScene = new ScrollMagic.Scene({
   offset: 160
 })
   .setPin("#third-line", {pushFollowers: false})
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
 var threeBCeppoTween = TweenMax.to('#ceppo-3b', 1, {
@@ -42,7 +42,7 @@ var threeACeppoSceneTween = new ScrollMagic.Scene({
   offset: 170
 })
   .setTween(threeBCeppoTween)
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
 var eleventhScene = new ScrollMagic.Scene({
@@ -52,7 +52,7 @@ var eleventhScene = new ScrollMagic.Scene({
   duration: 2000
 })
   .setPin("#fith-line", {pushFollowers: true})
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
 var fiveCeppoTween = TweenMax.to('#ceppo-5', 1, {
@@ -65,7 +65,7 @@ var fiveCeppoSceneTween = new ScrollMagic.Scene({
   offset: 170
 })
   .setTween(fiveCeppoTween)
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
   var fiveCeppoTween2 = TweenMax.to('#ceppo-5', 1, {
@@ -78,7 +78,7 @@ var fiveCeppoSceneTween = new ScrollMagic.Scene({
     offset: 1070
   })
     .setTween(fiveCeppoTween2)
-    .addIndicators()
+//    .addIndicators()
     .addTo(controller);
 
 var twelthScene = new ScrollMagic.Scene({
@@ -88,7 +88,7 @@ var twelthScene = new ScrollMagic.Scene({
   duration: 500
 })
   .setPin("#sept-2nd-line", {pushFollowers: false})
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
 var sevenACeppoTween = TweenMax.to('#ceppo-7a', 1, {
@@ -101,7 +101,7 @@ var sevenACeppoSceneTween = new ScrollMagic.Scene({
   offset: 170
 })
   .setTween(sevenACeppoTween)
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
 var sevenBCeppoTween = TweenMax.to('#ceppo-7b', 1, {
@@ -114,7 +114,7 @@ var sevenBCeppoSceneTween = new ScrollMagic.Scene({
   offset: 170
 })
   .setTween(sevenBCeppoTween)
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
   });

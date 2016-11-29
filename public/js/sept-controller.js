@@ -8,7 +8,7 @@ $(function() {
     duration: 650
   })
     .setPin("#sept-2nd-line", {pushFollowers: false})
-    .addIndicators()
+    //.addIndicators()
     .addTo(controller);
 
   var thirteenthScene = new ScrollMagic.Scene({
@@ -18,7 +18,7 @@ $(function() {
     duration: 1000
   })
     .setPin("#sept-4th-line", {pushFollowers: true})
-    .addIndicators()
+    //.addIndicators()
     .addTo(controller);
 
     var fourACeppoTween = TweenMax.to('#scolpire-4a', 1, {
@@ -31,7 +31,7 @@ $(function() {
       duration: 1000
     })
       .setTween(fourACeppoTween)
-      .addIndicators()
+    //  .addIndicators()
       .addTo(controller);
 
     var fourBCeppoTween = TweenMax.to('#scolpire-4b', 1, {
@@ -44,7 +44,7 @@ $(function() {
       duration: 1000
     })
       .setTween(fourBCeppoTween)
-      .addIndicators()
+    //  .addIndicators()
       .addTo(controller);
 
   var fiveACeppoTween = TweenMax.to('#scolpire-5a', 1, {
@@ -56,7 +56,7 @@ $(function() {
     duration: 150
   })
     .setTween(fiveACeppoTween)
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
   var fourteenthScene = new ScrollMagic.Scene({
@@ -66,7 +66,7 @@ $(function() {
     duration: 1000
   })
     .setPin("#sept-7th-line", {pushFollowers: true})
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
   var sevenCeppoTween = TweenMax.to('#scolpire-7', 1, {
     transform: 'translate3d(-900px, 0, 0)'
@@ -78,7 +78,7 @@ $(function() {
     duration: 1000
   })
     .setTween(sevenCeppoTween)
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
     var fifthteenthScene = new ScrollMagic.Scene({
@@ -88,7 +88,7 @@ $(function() {
       duration: 1000
     })
       .setPin("#sept-8th-line", {pushFollowers: true})
-      .addIndicators()
+  //    .addIndicators()
       .addTo(controller);
     var eightCeppoTween = TweenMax.to('#scolpire-8', 1, {
       transform: 'translate3d(-900px, 0, 0)'
@@ -100,7 +100,7 @@ $(function() {
       duration: 1000
     })
       .setTween(eightCeppoTween)
-      .addIndicators()
+  //    .addIndicators()
       .addTo(controller);
 
 
@@ -111,7 +111,7 @@ $(function() {
     duration: 550
   })
     .setPin("#sept-8a-line", {pushFollowers: false})
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
   var seventeenthScene = new ScrollMagic.Scene({
@@ -121,7 +121,7 @@ $(function() {
     duration: 1000
   })
     .setPin("#sept-10th-line", {pushFollowers: true})
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
   var tenCeppoTween = TweenMax.to('#scolpire-10', 1, {
@@ -134,7 +134,7 @@ $(function() {
     duration: 1000
   })
     .setTween(tenCeppoTween)
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
 });
