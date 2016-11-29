@@ -136,27 +136,27 @@ $(function() {
   //  .addIndicators()
     .addTo(controller);
 
-  var seventeenthScene = new ScrollMagic.Scene({
-    triggerElement: '#sept-10th-line',
-    triggerHook: 0,
-    offset: 150,
-    duration: 1000
-  })
-    .setPin("#sept-10th-line", {pushFollowers: true})
-  //  .addIndicators()
-    .addTo(controller);
-
-  var tenCeppoTween = TweenMax.to('#scolpire-10', 1, {
-    transform: 'translate3d(1150px, 0, 0)'
-  })
-  var tenCeppoSceneTween = new ScrollMagic.Scene({
-    triggerElement: '#sept-10th-line',
-    triggerHook: 0,
-    offset: 150,
-    duration: 1000
-  })
-    .setTween(tenCeppoTween)
-  //  .addIndicators()
-    .addTo(controller);
+  // var seventeenthScene = new ScrollMagic.Scene({
+  //   triggerElement: '#sept-10th-line',
+  //   triggerHook: 0,
+  //   offset: 150,
+  //   duration: 1000
+  // })
+  //   .setPin("#sept-10th-line", {pushFollowers: true})
+  // //  .addIndicators()
+  //   .addTo(controller);
+  //
+  // var tenCeppoTween = TweenMax.to('#scolpire-10', 1, {
+  //   transform: 'translate3d(1150px, 0, 0)'
+  // })
+  // var tenCeppoSceneTween = new ScrollMagic.Scene({
+  //   triggerElement: '#sept-10th-line',
+  //   triggerHook: 0,
+  //   offset: 150,
+  //   duration: 1000
+  // })
+  //   .setTween(tenCeppoTween)
+  // //  .addIndicators()
+  //   .addTo(controller);
 
 });
