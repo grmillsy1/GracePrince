@@ -82,12 +82,12 @@ var fiveCeppoSceneTween = new ScrollMagic.Scene({
     .addTo(controller);
 
 var twelthScene = new ScrollMagic.Scene({
-  triggerElement: '#seventh-line',
+  triggerElement: '#sept-2nd-line',
   triggerHook: 0,
   offset: 160,
-  duration: 1500
+  duration: 500
 })
-  .setPin("#seventh-line", {pushFollowers: true})
+  .setPin("#sept-2nd-line", {pushFollowers: false})
   .addIndicators()
   .addTo(controller);
 

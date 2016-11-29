@@ -5,21 +5,22 @@ img#scolpire-1b {
 
 img#scolpire-2 {
   margin-top: 200px;
+  margin-left: 500px;
 }
 
 img#s-label-1  {
   height: 100px;
-  margin-left: -250px;
-  margin-right: 100px;
+  margin-left: 50px;
   margin-bottom: 100px;
 }
 
 img#scolpire-3 {
   margin-top: 200px;
+  margin-left: 200px;
 }
 
 img#scolpire-4a {
-  margin-top: 200px;
+  margin-top: 300px;
   margin-right: 25px;
 }
 
@@ -29,7 +30,7 @@ img#s-label-2  {
 }
 
 img#scolpire-5a {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 250px;
   margin-right: 50px;
   margin-bottom: 100px;
@@ -40,12 +41,12 @@ img#scolpire-6 {
 }
 img#scolpire-7 {
   margin-top: 200px;
+  margin-left: 1300px;
 }
 img#scolpire-8 {
   margin-top: 200px;
 }
 img#scolpire-8-add {
-  margin-top: 200px;
   margin-left: 200px;
 }
 img#s-label-3  {
@@ -55,11 +56,16 @@ img#s-label-3  {
 }
 img#scolpire-9 {
   margin-top: 200px;
-  margin-left: 600px;
+  margin-left: 500px;
 }
 
 img#scolpire-10 {
   margin-top: 200px;
   margin-left: 150px;
+}
+
+.sept-11th-line{
+  margin-top: -150px;
   margin-bottom: 200px;
+  opacity: 0.6;
 }
