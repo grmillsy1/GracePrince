@@ -7,14 +7,14 @@ var firstScenePin = new ScrollMagic.Scene({
   triggerElement: '#lin-2nd-line',
   triggerHook: 0,
   offset: 150,
-  duration: 1000
+  duration: 1050
 })
   .setPin("#lin-2nd-line", {pushFollowers: false})
 //  .addIndicators()
   .addTo(controller);
 
-  var firstLineaTween = TweenMax.to('#lin-2nd-line', 1, {
-    transform: 'translate3d(-1200px, 0, 0)'
+  var firstLineaTween = TweenMax.to('#lin-2b', 1, {
+    transform: 'translate3d(-900px, 0, 0)'
   })
   var firstScene = new ScrollMagic.Scene({
     triggerElement: '#lin-2nd-line',
@@ -23,6 +23,19 @@ var firstScenePin = new ScrollMagic.Scene({
     duration: 1000
   })
     .setTween(firstLineaTween)
+  //  .addIndicators()
+    .addTo(controller);
+
+  var firstLineaTween2 = TweenMax.to('#lin-2a', 1, {
+    transform: 'translate3d(1200px, 0, 0)'
+  })
+  var firstScene2 = new ScrollMagic.Scene({
+    triggerElement: '#lin-2nd-line',
+    triggerHook: 0,
+    offset: 150,
+    duration: 1000
+  })
+    .setTween(firstLineaTween2)
   //  .addIndicators()
     .addTo(controller);
 
@@ -121,28 +134,28 @@ var firstScenePin = new ScrollMagic.Scene({
     // .addIndicators()
     .addTo(controller);
 
-var seventhScene = new ScrollMagic.Scene({
-  triggerElement: '#lin-11th-line',
-  triggerHook: 0,
-  offset: 250,
-  duration: 1000
-})
-  .setPin("#lin-11th-line", {pushFollowers: true})
-  // .addIndicators()
-  .addTo(controller);
-
-  var elevenLineaTween = TweenMax.to('#lin-11', 1, {
-    transform: 'translate3d(800px, 800px, 0)'
-  })
-  var seventhSceneTween = new ScrollMagic.Scene({
-    triggerElement: '#lin-11th-line',
-    duration: 1000,
-    triggerHook: 0,
-    offset: 350
-  })
-    .setTween(elevenLineaTween)
-    // .addIndicators()
-    .addTo(controller);
+// var seventhScene = new ScrollMagic.Scene({
+//   triggerElement: '#lin-11th-line',
+//   triggerHook: 0,
+//   offset: 250,
+//   duration: 1000
+// })
+//   .setPin("#lin-11th-line", {pushFollowers: true})
+//   // .addIndicators()
+//   .addTo(controller);
+//
+//   var elevenLineaTween = TweenMax.to('#lin-11', 1, {
+//     transform: 'translate3d(800px, 800px, 0)'
+//   })
+//   var seventhSceneTween = new ScrollMagic.Scene({
+//     triggerElement: '#lin-11th-line',
+//     duration: 1000,
+//     triggerHook: 0,
+//     offset: 350
+//   })
+//     .setTween(elevenLineaTween)
+//     // .addIndicators()
+//     .addTo(controller);
 
 var eigthScene = new ScrollMagic.Scene({
   triggerElement: '#lin-12th-line',
