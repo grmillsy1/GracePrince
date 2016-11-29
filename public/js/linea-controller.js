@@ -10,7 +10,7 @@ var firstScenePin = new ScrollMagic.Scene({
   duration: 1000
 })
   .setPin("#lin-2nd-line", {pushFollowers: false})
-  .addIndicators()
+//  .addIndicators()
   .addTo(controller);
 
   var firstLineaTween = TweenMax.to('#lin-2nd-line', 1, {
@@ -23,7 +23,7 @@ var firstScenePin = new ScrollMagic.Scene({
     duration: 1000
   })
     .setTween(firstLineaTween)
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
   var fourBLineaTween = TweenMax.to('#lin-4b', 1, {
@@ -45,7 +45,7 @@ var firstScenePin = new ScrollMagic.Scene({
     duration: 1000
   })
     .setPin("#lin-6th-line", {pushFollowers: true})
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
 
@@ -69,7 +69,7 @@ var firstScenePin = new ScrollMagic.Scene({
       duration: 1200
     })
       .setPin("#lin-7th-line", {pushFollowers: true})
-      .addIndicators()
+    //  .addIndicators()
       .addTo(controller);
 
     var sevenLineaTween = TweenMax.to('#lin-7', 1, {
@@ -82,7 +82,7 @@ var firstScenePin = new ScrollMagic.Scene({
       duration: 1000
     })
       .setTween(sevenLineaTween)
-      .addIndicators()
+    //  .addIndicators()
       .addTo(controller);
 
   var sixthScene = new ScrollMagic.Scene({
@@ -92,7 +92,7 @@ var firstScenePin = new ScrollMagic.Scene({
     duration: 1000
   })
     .setPin("#lin-9th-line", {pushFollowers: true})
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
   var nineALineaTween = TweenMax.to('#lin-9a', 1, {
@@ -105,7 +105,7 @@ var firstScenePin = new ScrollMagic.Scene({
     duration: 1000
   })
     .setTween(nineALineaTween)
-    .addIndicators()
+  //  .addIndicators()
     .addTo(controller);
 
   var nineBLineaTween = TweenMax.to('#lin-9b', 1, {
@@ -147,7 +147,7 @@ var seventhScene = new ScrollMagic.Scene({
 var eigthScene = new ScrollMagic.Scene({
   triggerElement: '#lin-12th-line',
   triggerHook: 0,
-  duration: 1100
+  duration: 1200
 })
   .setPin("#lin-12th-line", {pushFollowers: true})
   // .addIndicators()
@@ -173,7 +173,7 @@ var eigthScene = new ScrollMagic.Scene({
     triggerElement: '#lin-12th-line',
     duration: 1000,
     triggerHook: 0,
-    offset: 300
+    offset: 400
   })
     .setTween(twelveBLineaTween)
     // .addIndicators()
