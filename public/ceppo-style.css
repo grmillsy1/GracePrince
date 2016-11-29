@@ -1,6 +1,10 @@
+.text-container{
+  margin-top: -85px;
+}
+
 img#ceppo-1a {
-  margin-left: 30px !important;
-  margin-bottom: 30px !important;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 img#c-label-1 {
@@ -13,8 +17,12 @@ img#ceppo-2 {
   margin-top: 200px;
 }
 
+.second-addon{
+  margin-top: 400px;
+}
 img#ceppo-2-add {
-  margin-top: 200px;
+  margin-top: 600px;
+  margin-left: 450px;
 }
 
 img#ceppo-3 {
@@ -31,15 +39,18 @@ img#c-label-2 {
   margin-bottom: 400px;
 }
 
+img#ceppo-3b{
+
+}
 img#ceppo-4a {
-  margin-top: 200px;
-  margin-left: 245px;
-  margin-right: 20px;
+  margin-top: 400px;
+  margin-left: 330px;
 }
 
 img#ceppo-5 {
   margin-top: 200px;
-  margin-left: 245px;
+  margin-left: -500px;
+  /*margin-left: 245px;*/
 }
 
 img#ceppo-6 {
@@ -52,7 +63,12 @@ img#ceppo-7a {
 }
 
 img#ceppo-8 {
-  margin-top: 200px;
+  margin-top: -300px;
   margin-left: 350px;
   margin-bottom: 200px;
+}
+
+.ceppo-9th-line{
+  margin-bottom: 200px;
+  opacity: 0.6;
 }
