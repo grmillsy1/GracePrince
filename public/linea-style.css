@@ -10,7 +10,7 @@ img#label-1 {
 }
 
 img#lin-3 {
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 img#lin-4a {
@@ -19,18 +19,15 @@ img#lin-4a {
   margin-right: 10px;
 }
 
-#lin-3rd-line {
-  height: 200px;
-}
-
 img#lin-5 {
   margin-top: 700px;
 }
 
 img#label-2 {
   height: 100px;
-  margin-bottom: 450px;
+  /*margin-bottom: 450px;*/
   margin-left: 390px;
+  margin-top: 100px;
 }
 
 img#lin-6a {
@@ -50,12 +47,12 @@ img#lin-6b {
 }
 
 img#lin-7 {
-  margin-top: -200px;
-  margin-left: -400px;
+  margin-top: -400px;
+  margin-left: -550px;
 }
 
-img#lin-8 {
-  margin-top: 600px;
+.lin-8th-line {
+  margin-top: 900px;
 }
 
 img#lin-9a {

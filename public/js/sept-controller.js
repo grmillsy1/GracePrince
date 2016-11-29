@@ -47,17 +47,39 @@ $(function() {
     //  .addIndicators()
       .addTo(controller);
 
-  var fiveACeppoTween = TweenMax.to('#scolpire-5a', 1, {
-    transform: 'translate3d(0, 100px, 0)'
-  })
-  var fiveACeppoSceneTween = new ScrollMagic.Scene({
+  var fourteenthScene1 = new ScrollMagic.Scene({
     triggerElement: '#sept-5th-line',
     triggerHook: 0,
-    duration: 150
+    offset: 85,
+    duration: 1000
   })
-    .setTween(fiveACeppoTween)
-  //  .addIndicators()
+    .setPin("#sept-5th-line", {pushFollowers: true})
+    //.addIndicators()
     .addTo(controller);
+      var fiveACeppoTween = TweenMax.to('#scolpire-5a', 1, {
+        transform: 'translate3d(1100px, 0, 0)'
+      })
+      var fiveACeppoSceneTween = new ScrollMagic.Scene({
+        triggerElement: '#sept-5th-line',
+        triggerHook: 0,
+        offset: 85,
+        duration: 1000
+      })
+        .setTween(fiveACeppoTween)
+        //.addIndicators()
+        .addTo(controller);
+        var fiveBCeppoTween = TweenMax.to('#scolpire-5b', 1, {
+          transform: 'translate3d(-1000px, 0, 0)'
+        })
+        var fiveBCeppoSceneTween = new ScrollMagic.Scene({
+          triggerElement: '#sept-5th-line',
+          triggerHook: 0,
+          offset: 85,
+          duration: 1000
+        })
+          .setTween(fiveBCeppoTween)
+          //.addIndicators()
+          .addTo(controller);
 
   var fourteenthScene = new ScrollMagic.Scene({
     triggerElement: '#sept-7th-line',
