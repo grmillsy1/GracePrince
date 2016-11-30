@@ -22,10 +22,17 @@ $('#video-selector').click(function(){
 // });
 
 $('a.button').on('click', function(){
-  $('.wrap, a').toggleClass('active');
+  $('.wrap, a.button').toggleClass('active');
 
   return false;
 });
+
+$('a.button2').on('click', function(){
+  $('.wrap2, a.button2').toggleClass('active');
+
+  return false;
+});
+
 
 
 // http://jsfiddle.net/Q4PUw/2/
