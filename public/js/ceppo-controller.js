@@ -1,4 +1,4 @@
-
+if ($( window ).width() >= 1024) {
     $(function() {
       var controller = new ScrollMagic.Controller();
 
@@ -119,3 +119,4 @@
       .addTo(controller);
 
       });
+}
