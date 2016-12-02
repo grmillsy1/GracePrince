@@ -6,6 +6,16 @@
   //    mediaPlayer = document.getElementById('video-selector');
   //    mediaPlayer.controls = false;
   // }
+  var myVar;
+
+  function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+  }
+
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
 
 $('#video-selector').click(function(){
    window.location.href= '/index';
