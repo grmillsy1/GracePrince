@@ -1,4 +1,4 @@
-
+@media screen and (min-width : 1024px) {
 img#lin-2a {
   margin-top: 200px;
   margin-right: 20px;
@@ -90,4 +90,206 @@ img#lin-13 {
 .lin-14th-line{
   margin-bottom: 200px;
   opacity: 0.6;
+}
+}
+
+@media screen and (min-width : 415px) and (max-width : 1024px) {
+  body {
+    max-width: 768px;
+    height: auto;
+  }
+  img#scolpire-1a {
+    width: 40%;
+    height: auto;
+  }
+  img#scolpire-1b {
+    width: 40%;
+    height: auto;
+  }
+  img#scolpire-2 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  img#s-label-1{
+    width: 50%;
+    height: auto;
+  }
+
+  img#scolpire-3 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 50%;
+  }
+
+  img#scolpire-4a {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-right: 5%;
+  }
+  img#scolpire-4b {
+    width: auto;
+    height: auto;
+  }
+
+  img#s-label-2{
+    width: 50%;
+    margin-top: 100px;
+  }
+
+  img#scolpire-5a {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  img#scolpire-6 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+
+  }
+  img#scolpire-7 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+
+  }
+  img#scolpire-8 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+  }
+
+ img#scolpire-8-add {
+   width: auto;
+   height: auto;
+   margin-top: 100px;
+   margin-left: 10%;
+ }
+
+  img#s-label-3 {
+    width: 50%;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  img#scolpire-9 {
+    width: auto;
+    height: auto;
+  }
+  img#scolpire-10 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 10%;
+  }
+
+}
+
+@media screen and (max-width : 415px) {
+  body {
+    width: 320px;
+    height: auto;
+  }
+  img#scolpire-1a {
+    width: 45%;
+    height: auto;
+  }
+  img#scolpire-1b {
+    width: 45%;
+    height: auto;
+  }
+  img#scolpire-2 {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  img#s-label-1{
+    margin-top: 100px;
+    width: 50%;
+    height: auto;
+  }
+
+  img#scolpire-3 {
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+  }
+
+  img#scolpire-4a {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-right: 5%;
+  }
+  img#scolpire-4b {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  img#s-label-2{
+    width: 50%;
+    margin-top: 100px;
+  }
+
+  img#scolpire-5a {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+  }
+  img#scolpire-5b {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 100px;
+  }
+
+  img#scolpire-6 {
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+
+  }
+  img#scolpire-7 {
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+
+  }
+  img#scolpire-8 {
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+  }
+
+ img#scolpire-8-add {
+   width: 90%;
+   height: auto;
+   margin-top: 100px;
+   margin-left: 10%;
+ }
+
+  img#s-label-3 {
+    width: 50%;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  img#scolpire-9 {
+    width: 90%;
+    height: auto;
+  }
+  img#scolpire-10 {
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 10%;
+  }
 }

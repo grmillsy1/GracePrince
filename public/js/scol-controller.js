@@ -114,5 +114,16 @@ if ($( window ).width() >= 1024) {
     //  .addIndicators()
       .addTo(controller);
 
+      $(window).on("resize", function(e) {
+        if ($(window).width() < 1020 && controller.enabled()) {
+          controller.enabled(false);
+          console.log('resized')
+        } else if (!controller.enabled()) {
+          controller.enabled(true);
+        }
+        controller.update(true);
+      });
+
+
   });
 }

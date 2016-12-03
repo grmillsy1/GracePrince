@@ -1,11 +1,4 @@
-  // document.addEventListener("DOMContentLoaded", function() { initialiseMediaPlayer(); }, false);
-  //
-  // var mediaPlayer;
-  //
-  // function initialiseMediaPlayer() {
-  //    mediaPlayer = document.getElementById('video-selector');
-  //    mediaPlayer.controls = false;
-  // }
+
   var myVar;
 
   function myFunction() {
@@ -34,15 +27,7 @@ $('a.button2').on('click', function(){
   return false;
 });
 
-$(window).on("resize", function(e) {
-  if ($(window).width() < 1000 && controller.enabled()) {
-    controller.enabled(false);
-    console.log('resized')
-  } else if (!controller.enabled()) {
-    controller.enabled(true);
-  }
-  controller.update(true);
-});
+
 
 
 

@@ -1,6 +1,9 @@
+
+
 if ($( window ).width() >= 1024) {
     $(function() {
       var controller = new ScrollMagic.Controller();
+      controller.enabled(true)
 
     var ninthScene = new ScrollMagic.Scene({
       triggerElement: '#second-line',
@@ -117,6 +120,16 @@ if ($( window ).width() >= 1024) {
       .setTween(sevenBCeppoTween)
     //  .addIndicators()
       .addTo(controller);
+
+      $(window).on("resize", function(e) {
+        if ($(window).width() < 1020 && controller.enabled()) {
+          controller.enabled(false);
+          console.log('resized')
+        } else if (!controller.enabled()) {
+          controller.enabled(true);
+        }
+        controller.update(true);
+      });
 
       });
 }
