@@ -83,15 +83,15 @@
     height: auto;
   }
   img#scolpire-1a {
-    width: 40%;
+    width: 45%;
     height: auto;
   }
   img#scolpire-1b {
-    width: 40%;
+    width: 45s%;
     height: auto;
   }
   img#scolpire-2 {
-    width: auto;
+    width: 45%;
     height: auto;
     margin-top: 100px;
   }
@@ -102,20 +102,20 @@
   }
 
   img#scolpire-3 {
-    width: auto;
+    width: 40%;
     height: auto;
     margin-top: 100px;
     margin-left: 50%;
   }
 
   img#scolpire-4a {
-    width: auto;
+    width: 40%;
     height: auto;
     margin-top: 100px;
     margin-right: 5%;
   }
   img#scolpire-4b {
-    width: auto;
+    width: 40%;
     height: auto;
   }
 
@@ -125,32 +125,36 @@
   }
 
   img#scolpire-5a {
-    width: auto;
+    width: 50%;
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
   }
+  img#scolpire-5b {
+    width: 35%;
+    height: auto;
+  }
 
   img#scolpire-6 {
-    width: auto;
+    width: 50%;
     height: auto;
     margin-top: 100px;
 
   }
   img#scolpire-7 {
-    width: auto;
+    width: 70%;
     height: auto;
     margin-top: 100px;
 
   }
   img#scolpire-8 {
-    width: auto;
+    width: 70%;
     height: auto;
     margin-top: 100px;
   }
 
  img#scolpire-8-add {
-   width: auto;
+   width: 50%;
    height: auto;
    margin-top: 100px;
    margin-left: 10%;
@@ -163,11 +167,11 @@
   }
 
   img#scolpire-9 {
-    width: auto;
+    width: 60%;
     height: auto;
   }
   img#scolpire-10 {
-    width: auto;
+    width: 50%;
     height: auto;
     margin-top: 100px;
     margin-left: 10%;
@@ -176,20 +180,30 @@
 
 @media screen and (max-width : 415px) {
   body {
-    width: 320px;
+    width: 100%;
     height: auto;
   }
   img#scolpire-1a {
-    width: 45%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   img#scolpire-1b {
-    width: 45%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
   }
   img#scolpire-2 {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
 
@@ -200,63 +214,85 @@
   }
 
   img#scolpire-3 {
-    width: auto;
+    width: 70%;
     height: auto;
-    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img#scolpire-4a {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
-    margin-right: 5%;
   }
   img#scolpire-4b {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
 
   img#s-label-2{
     width: 50%;
+    height: auto;
     margin-top: 100px;
   }
 
   img#scolpire-5a {
-    width: auto;
+    width: 70%;
     height: auto;
-    margin-left: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   img#scolpire-5b {
-    width: auto;
+    width: 70%;
     height: auto;
-    margin-left: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
 
   img#scolpire-6 {
-    width: 90%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
 
   }
   img#scolpire-7 {
-    width: 90%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
-
   }
   img#scolpire-8 {
-    width: 90%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
 
  img#scolpire-8-add {
-   width: 90%;
+   width: 70%;
    height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    margin-top: 100px;
-   margin-left: 10%;
  }
 
   img#s-label-3 {
@@ -266,13 +302,18 @@
   }
 
   img#scolpire-9 {
-    width: 90%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   img#scolpire-10 {
-    width: 90%;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
-    margin-left: 10%;
   }
 }

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Covered By Your Grace';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Covered By Your Grace'), local('CoveredByYourGrace'), url(https://fonts.gstatic.com/s/coveredbyyourgrace/v6/6ozZp4BPlrbDRWPe3EBGA03JHltKCypNUIe4PCGqKsSglnMp3_3A8V8Ai8YosRtX.woff) format('woff');
+}
+@font-face {
+  font-family: 'Squada One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Squada One'), local('SquadaOne-Regular'), url(https://fonts.gstatic.com/s/squadaone/v5/DIbfqh10Zkwc_Qd08Y0sab3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}

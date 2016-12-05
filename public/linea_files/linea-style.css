@@ -310,62 +310,46 @@ img#lin-13 {
 
 
   img#lin-6a {
-    width: 70%;
+    width: 50%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 150px;
+    margin-left: 3%;
   }
   img#lin-6b {
-    width: 70%;
+    width: 45%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
   }
 
   img#lin-7 {
-    width: 70%;
+    width: auto;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;
+    margin-left: 25%;
 
   }
   img#lin-8 {
-    width: 90%;
+    width: auto;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;
   }
 
  img#lin-9a {
-   width: 70%;
+   width: auto;
    height: auto;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
    margin-top: 100px;
+   margin-left: 10%;
  }
  img#lin-9b {
-   width: 70%;
+   width: auto;
    height: auto;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
    margin-top: 100px;
+   margin-left: 2%;
  }
  img#lin-10 {
-   width: 90%;
+   width: auto;
    height: auto;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
    margin-top: 100px;
+   margin-left: 5%;
  }
   img#label-3 {
     width: 50%;
@@ -374,34 +358,25 @@ img#lin-13 {
   }
 
   img#lin-11 {
-    width: 70%;
+    width: auto;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
   }
   img#lin-12a {
-    width: 70%;
+    width: auto;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;
+    margin-left: 10%;
   }
   img#lin-12b {
-    width: 70%;
+    width: auto;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;
+    margin-left: 2%;
   }
   img#lin-13 {
     width: 90%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;
     }
 }

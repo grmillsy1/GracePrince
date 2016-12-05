@@ -6,7 +6,6 @@ body {
   position: relative;
 }
 
-
 .text-container{
   margin-top: -85px;
 }
@@ -82,20 +81,22 @@ img#ceppo-8 {
 @media screen and (min-width : 415px) and (max-width : 1024px) {
 
 body {
-  max-width: 100%;
-  height: 100vh;
+  width: 100%;
   position: relative;
+}
+.text-container{
+  margin-top: -85px;
 }
   .wrapper1 {
     padding-left: 0;
   }
 
   img#ceppo-1 {
-    width: auto;
+    width: 50%;
     height: auto;
   }
   img#ceppo-1a {
-    width: auto;
+    width: 40%;
     height: auto;
   }
   img#c-label-1 {
@@ -105,24 +106,24 @@ body {
   }
 
   img#ceppo-2 {
-    width: auto;
+    width: 45%;
     height: auto;
     margin-top: 200px;
   }
 
   img#ceppo-2-add {
-    width: auto;
+    width: 50%;
     height: auto;
     margin-top: 200px;
   }
   img#ceppo-3 {
-    width: auto;
+    width: 40%;
     height: auto;
     margin-top: 200px;
     margin-left: 10%;
   }
   img#ceppo-3b {
-    width: auto;
+    width: 40%;
     height: auto;
   }
 
@@ -131,15 +132,20 @@ body {
     margin-top: 200px;
   }
 
+  img#ceppo-4a{
+    width: 50%;
+    height: auto;
+  }
+
   img#ceppo-5 {
-    width: auto;
+    width: 60%;
     height: auto;
     margin-top: 200px;
     margin-left: 10%;
   }
 
   img#ceppo-6 {
-    width: auto;
+    width: 60%;
     height: auto;
     margin-top: 200px;
 
@@ -155,7 +161,7 @@ body {
     margin-top: 200px;
   }
   img#ceppo-8 {
-    width: auto;
+    width: 80%;
     height: auto;
     margin-top: 200px;
     margin-left: 10%;
@@ -163,13 +169,29 @@ body {
 }
 
 @media screen and (max-width : 415px) {
-  img#ceppo-1 {
-    width: auto;
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
     height: auto;
   }
-  img#ceppo-1a {
-    width: auto;
+  .text-container {
+    margin-top: -85px;
+  }
+
+  img#ceppo-1 {
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img#ceppo-1a {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
   img#c-label-1 {
@@ -179,58 +201,92 @@ body {
   }
 
   img#ceppo-2 {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img#ceppo-2-add {
-    width: auto;
+    width: 70%;
     height: auto;
-    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
   }
   img#ceppo-3 {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
-    margin-left: 10%;
   }
   img#ceppo-3b {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
-    margin-left: 10%;
   }
+
 
   img#c-label-2{
     width: 50%;
     margin-top: 100px;
   }
 
+    img#ceppo-4a{
+      width: 70%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
   img#ceppo-5 {
-    width: 90%;
+    width: 70%;
     height: auto;
-    margin-left: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
 
   img#ceppo-6 {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
 
   }
   img#ceppo-7a {
-    height: auto;
     width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
   img#ceppo-7b {
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
   img#ceppo-8 {
-    width: auto;
+    width: 70%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
 }

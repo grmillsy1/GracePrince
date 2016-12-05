@@ -8,9 +8,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-.grace-logo {
-  width: 25%;
-}
 
 ul.header_list {
   display: table;
@@ -25,6 +22,7 @@ ul.header_list li{
 ul.header_list img{
   width: 69%;
 }
+
 
 ul.footer_list {
   display: table;
@@ -157,7 +155,7 @@ a.button {
   font-size: 20px;
   display: block;
   position: absolute;
-  left: 15%;
+  left: 5%;
   margin-bottom: 40px;
   /*bottom: 20px;*/
   margin-left: -25px;
@@ -241,7 +239,7 @@ a.button2 {
   font-size: 20px;
   display: block;
   position: absolute;
-  left: 80%;
+  left: 90%;
   /*bottom: 20px;*/
   /*top: auto;*/
   margin-left: 0;
@@ -253,20 +251,4 @@ a.button2:hover {
 a.button2.active {
   transform: rotate(-90deg);
   transition: transform 0.5s;
-}
-
-@media screen and (max-width : 1024px) {
-  .grace-logo {
-    width: 50% !important;
-  }
-
-  ul.header_list img{
-    width: 100% !important;
-  }
-  .index_page{
-    width: 90%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
