@@ -46,10 +46,17 @@
   }
   img#scolpire-8 {
     margin-top: 200px;
+    margin-left: 300px;
+  }
+  img#scolpire-8-label{
+    height: 65px;
+    margin-left: 200px;
+    margin-bottom: 100px;
   }
 
   #sept-8a-line{
     margin-top: 200px;
+
   }
 
   img#scolpire-8-add {
