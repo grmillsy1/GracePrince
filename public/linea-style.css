@@ -1,12 +1,15 @@
 @media screen and (min-width : 1024px) {
 img#lin-2a {
-  margin-top: 200px;
+  margin-top: 250px;
   margin-right: 20px;
+}
+img#lin-2b {
+  margin-bottom: 50px;
 }
 
 img#label-1 {
   height: 100px;
-  margin-bottom: 450px;
+  margin-bottom: 500px;
 }
 
 img#lin-3 {

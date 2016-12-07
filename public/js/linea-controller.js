@@ -8,7 +8,7 @@ if ($( window ).width() >= 1024) {
     triggerElement: '#lin-2nd-line',
     triggerHook: 0,
     offset: 150,
-    duration: 1050
+    duration: 1100
   })
     .setPin("#lin-2nd-line", {pushFollowers: false})
   //  .addIndicators()
