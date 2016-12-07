@@ -73,9 +73,17 @@
 
   .sept-11th-line{
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     opacity: 0.6;
   }
+  img#prices{
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+
 }
 
 @media screen and (min-width : 415px) and (max-width : 1024px) {

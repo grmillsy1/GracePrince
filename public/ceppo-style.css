@@ -68,13 +68,22 @@ img#ceppo-7a {
 img#ceppo-8 {
   margin-top: 300px;
   margin-left: 350px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
+}
+img#prices{
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 50px;
 }
 
 .ceppo-9th-line{
   margin-bottom: 200px;
   opacity: 0.6;
 }
+
+
 
 }
 @media screen and (min-width : 415px) and (max-width : 1024px) {
@@ -165,6 +174,8 @@ body {
     margin-top: 200px;
     margin-left: 10%;
   }
+
+
 }
 
 @media screen and (max-width : 415px) {

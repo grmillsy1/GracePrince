@@ -80,10 +80,15 @@ img#person-photo {
 
 #email {
   position: absolute;
-  top: 45%;
-  left: 60%;
+  top: 47%;
+  left: 63%;
   z-index: 7;
+  font-family: Times, "Times New Roman" !important;
+  color: #C1272D;
+  text-decoration: underline !important;
 }
+
+
 
 .design_work_view {
   margin-left: 10%;
@@ -140,7 +145,7 @@ img#person-photo {
 }
 .wrap.active:before {
   height: 2000px;
-  width: 2000px;
+  width: 2500px;
   border-radius: 50%;
   top: 5%;
   left: 5%;
@@ -169,7 +174,7 @@ a.button {
   outline: none;
   border-radius: 50%;
   color: #c1272d;
-  font-size: 20px;
+  font-size: 23px;
   display: block;
   position: absolute;
   left: 15%;
@@ -231,7 +236,7 @@ a.button.active {
 }
 .wrap2.active:before {
   height: 2000px;
-  width: 2000px;
+  width: 2500px;
   border-radius: 50%;
   top: 5%;
   left: 95%;
@@ -253,7 +258,7 @@ a.button2 {
   outline: none;
   border-radius: 50%;
   color: #c1272d;
-  font-size: 20px;
+  font-size: 23px;
   display: block;
   position: absolute;
   left: 80%;
@@ -268,6 +273,35 @@ a.button2:hover {
 a.button2.active {
   transform: rotate(-90deg);
   transition: transform 0.5s;
+}
+
+.book_gallery {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.book_gallery div {
+  margin-top: -10px;
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.book_gallery img {
+  width: 75%;
+  height: auto;
+}
+.next {
+  right: 10%;
+  top: 40%;
+  position: absolute;
+}
+.prev {
+  left: 10%;
+  top: 40%;
+  position: absolute;
 }
 
 @media screen and (max-width : 1024px) {
