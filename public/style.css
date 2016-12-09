@@ -2,6 +2,8 @@
 * {
   font-family: 'Squada One', cursive;
 }
+
+@media screen and (min-width : 1000px) {
 .index_page{
   width: 65%;
   height: 100%;
@@ -64,13 +66,6 @@ div.first-line {
   width: auto;
 }
 
-/*#person-photo{
-  width: 50%;
-  height: auto;
-  position: st
-}
-*/
-
 img#place-holder {
   z-index: 5;
   width: 31%;
@@ -92,7 +87,6 @@ img#person-photo {
   color: #C1272D;
   text-decoration: underline !important;
 }
-
 
 
 .design_work_view {
@@ -169,10 +163,6 @@ img#person-photo {
 .wrap.active .content p {
   margin-top: 5%;
 }
-/*.wrap.active .content #space {
-  margin-top: 10% !important;
-}*/
-
 
 a.button {
   padding: 11px 11px 20px 20px;
@@ -184,7 +174,6 @@ a.button {
   position: absolute;
   left: 15%;
   margin-bottom: 40px;
-  /*bottom: 20px;*/
   margin-left: -25px;
   transition: transform 0.25s;
 }
@@ -198,7 +187,6 @@ a.button.active {
 }
 
 /*FOR RIGHT SIDE*/
-
 
 .wrap2 {
   position: fixed;
@@ -270,8 +258,6 @@ a.button2 {
   left: 80%;
   margin-left: -25px;
   margin-bottom: 40px;
-  /*bottom: 20px;*/
-  /*top: auto;*/
   margin-left: 0;
   transition: transform 0.25s;
 }
@@ -315,8 +301,8 @@ a.button2.active {
   top: 50%;
   position: absolute;
 }
-
-@media screen and (max-width : 1024px) {
+}
+@media screen and (max-width : 1000px) {
   .grace-logo {
     width: 50% !important;
   }
@@ -330,4 +316,8 @@ a.button2.active {
     margin-left: auto;
     margin-right: auto;
   }
+  a.button2 {
+    display: none;
+  }
+
 }

@@ -1,5 +1,5 @@
 
-@media screen and (min-width : 1024px) {
+@media screen and (min-width : 1000px) {
   img#scolpire-1b {
     margin-right: -10px;
   }
@@ -78,11 +78,6 @@
     margin-bottom: 200px;
   }
 
-  .sept-11th-line{
-    margin-top: 150px;
-    margin-bottom: 150px;
-    opacity: 0.6;
-  }
   img#prices{
     width: 20%;
     margin-right: auto;
@@ -93,7 +88,7 @@
 
 }
 
-@media screen and (min-width : 415px) and (max-width : 1024px) {
+@media screen and (min-width : 415px) and (max-width : 1000px) {
   body {
     max-width: 768px;
     height: auto;

@@ -1,4 +1,4 @@
-@media screen and (min-width : 1024px) {
+@media screen and (min-width : 1000px) {
 
 body {
   max-width: 100%;
@@ -78,13 +78,9 @@ img#prices{
   margin-bottom: 50px;
 }
 
-.ceppo-9th-line{
-  margin-bottom: 200px;
-  opacity: 0.6;
-}
 
 }
-@media screen and (min-width : 415px) and (max-width : 1024px) {
+@media screen and (min-width : 415px) and (max-width : 1000px) {
 
 body {
   width: 100%;
