@@ -5,9 +5,6 @@ body {
   height: 100vh;
   position: relative;
 }
-.text-container{
-  margin-top: -85px;
-}
 
 img#ceppo-1a {
   margin-left: 30px;
@@ -85,9 +82,6 @@ img#prices{
 body {
   width: 100%;
   position: relative;
-}
-.text-container{
-  margin-top: -85px;
 }
   .wrapper1 {
     padding-left: 0;
@@ -178,9 +172,6 @@ body {
     margin: 0;
     padding: 0;
     height: auto;
-  }
-  .text-container {
-    margin-top: -85px;
   }
 
   img#ceppo-1 {

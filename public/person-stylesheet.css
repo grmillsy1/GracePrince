@@ -1,0 +1,64 @@
+@media screen and (min-width : 768px) {
+  .PERSON {
+    width: auto;
+    height: 100vh;
+    position: relative;
+  }
+
+  img#profile-pic{
+    z-index: 5;
+    width: 31%;
+    height: auto;
+  }
+
+  img#contact-info {
+    height: auto;
+    width: 34%;
+    z-index: 6;
+  }
+}
+
+@media screen and (max-width : 768px) and (min-width : 415px) {
+  .PERSON {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  img#profile-pic{
+    width: 46%;
+    height: auto;
+  }
+
+  img#contact-info {
+    height: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width : 415px) {
+  .PERSON {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  img#profile-pic{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img#contact-info {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+}
