@@ -63,6 +63,14 @@ div.first-line {
   height: 100vh;
   width: auto;
 }
+
+/*#person-photo{
+  width: 50%;
+  height: auto;
+  position: st
+}
+*/
+
 img#place-holder {
   z-index: 5;
   width: 31%;
@@ -180,6 +188,7 @@ a.button {
   margin-left: -25px;
   transition: transform 0.25s;
 }
+
 a.button:hover {
   text-decoration: none;
 }
@@ -251,7 +260,7 @@ a.button.active {
 }
 
 a.button2 {
-  padding: 11px 11px 13px 13px;
+  padding: 11px 11px 20px 20px;
   outline: none;
   border-radius: 50%;
   color: #c1272d;
@@ -259,6 +268,8 @@ a.button2 {
   display: block;
   position: absolute;
   left: 80%;
+  margin-left: -25px;
+  margin-bottom: 40px;
   /*bottom: 20px;*/
   /*top: auto;*/
   margin-left: 0;
@@ -268,7 +279,7 @@ a.button2:hover {
   text-decoration: none;
 }
 a.button2.active {
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
   transition: transform 0.5s;
 }
 

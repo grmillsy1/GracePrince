@@ -10,25 +10,29 @@
     document.getElementById("myDiv").style.display = "block";
   }
 
-$('#video-selector').click(function(){
-   window.location.href= '/index';
+// $('#video-selector').click(function(){
+//    window.location.href= '/index';
+// })
+
+$(function() {
+  $('a.button').on('click', function(){
+    $('.wrap, a.button').toggleClass('active');
+    return false;
+  });
+  $(document).click(function(){
+    $('.wrap, a.button').removeClass('active');
+  })
 })
 
-
-$('a.button').on('click', function(){
-  $('.wrap, a.button').toggleClass('active');
-
-  return false;
-});
-
-$('a.button2').on('click', function(){
-  $('.wrap2, a.button2').toggleClass('active');
-
-  return false;
-});
-
-
-
+$(function() {
+  $('a.button2').on('click', function(){
+    $('.wrap2, a.button2').toggleClass('active');
+    return false;
+  });
+  $(document).click(function() {
+    $('.wrap2, a.button2').removeClass('active');
+  })
+})
 
 
 // http://jsfiddle.net/Q4PUw/2/
