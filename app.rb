@@ -10,15 +10,15 @@ class GracePrince < Sinatra::Base
   end
 
   get '/ceppo' do
-    erb :'./group/one'
+    erb :'./group/ceppo'
   end
 
   get '/scolpire' do
-    erb :'./group/two'
+    erb :'./group/scolp'
   end
 
   get '/linea' do
-    erb :'./group/three'
+    erb :'./group/linea'
   end
 
   get '/press' do
