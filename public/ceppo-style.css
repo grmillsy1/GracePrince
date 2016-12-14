@@ -6,18 +6,28 @@ body {
   position: relative;
 }
 
+img#ceppo-1 {
+  width: 29%;
+  height: auto;
+}
+
 img#ceppo-1a {
+  width: 25%;
+  height: auto;
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
 img#c-label-1 {
-  height: 100px;
+  width: 20%;
+  height: auto;
   margin-left: 400px;
   margin-bottom: 400px;
 }
 
 img#ceppo-2 {
+  width: 29%;
+  height: auto;
   margin-top: 200px;
 }
 
@@ -25,44 +35,66 @@ img#ceppo-2 {
   margin-top: 400px;
 }
 img#ceppo-2-add {
+  width: 29%;
+  height: auto;
   margin-top: 600px;
   margin-left: 450px;
 }
 
 img#ceppo-3 {
+  width: 26%;
+  height: auto;
   margin-top: 200px;
   margin-left: 245px;
   margin-right: 90px;
 }
 
 img#ceppo-3b {
+  width: 21%;
+  height: auto;
   margin-bottom: 30px;
 }
 img#c-label-2 {
-  height: 100px;
+  width: 20%;
+  height: auto;
   margin-bottom: 400px;
 }
 
 img#ceppo-4a {
+  width: 21%;
+  height: auto;
   margin-top: 400px;
   margin-left: 330px;
 }
 
 img#ceppo-5 {
+  width: 33%;
+  height: auto;
   margin-top: 200px;
   margin-left: -500px;
 }
 
 img#ceppo-6 {
+  width: 32%;
+  height: auto;
   margin-top: 200px;
 }
 
 img#ceppo-7a {
+  width: 30%;
+  height: auto;
   margin-top: 200px;
   margin-right: 20px;
 }
 
+img#ceppo-7b {
+  width: 28.4%;
+  height: auto;
+}
+
 img#ceppo-8 {
+  width: 32%;
+  height: auto;
   margin-top: 300px;
   margin-left: 350px;
   margin-bottom: 150px;

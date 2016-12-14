@@ -8,14 +8,14 @@ if ($( window ).width() >= 1024) {
     var ninthScene = new ScrollMagic.Scene({
       triggerElement: '#second-line',
       triggerHook: 0,
-      duration: 1550,
+      duration: 1130,
       offset: 160
     })
       .setPin("#second-line", {pushFollowers: false})
-    //  .addIndicators()
+      // .addIndicators()
       .addTo(controller);
     var twoCeppoTween = TweenMax.to('#ceppo-2', 3, {
-      transform: 'translate3d(600px, 0, 0)'
+      transform: 'translate3d(650px, 0, 0)'
     })
     var twoCeppoSceneTween = new ScrollMagic.Scene({
       triggerElement: '#second-line',
@@ -24,7 +24,7 @@ if ($( window ).width() >= 1024) {
       offset: 250
     })
       .setTween(twoCeppoTween)
-    //  .addIndicators()
+      // .addIndicators()
       .addTo(controller);
     var tenthScene = new ScrollMagic.Scene({
       triggerElement: '#third-line',
