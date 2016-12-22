@@ -1,15 +1,21 @@
 @media screen and (min-width : 1000px) {
 
   img#past-1a {
+    width: 29%;
+    height: auto;
     margin-left: 300px;
     margin-right: 40px;
   }
 
   img#past-1b {
+    width: 20%;
+    height: auto;
     margin-bottom: 110px;
   }
 
   img#past-2 {
+    width: 32%;
+    height: auto;
     margin-top: 200px;
     margin-left: 200px;
   }
@@ -20,15 +26,25 @@
   }
 
   img#past-2addon {
+    width: 20%;
+    height: auto;
     margin-top: 200px;
     margin-left: 600px;
   }
 
   img#past-3a {
+    width: 24%;
+    height: auto;
     margin-top: 200px;
     margin-left: 150px;
   }
+  img#past-3b{
+    width: 23.8%;
+    height: auto;
+  }
   img#past-4 {
+    width: 33%;
+    height: auto;
     margin-top: 200px;
   }
   img#poem-2 {
@@ -37,20 +53,40 @@
     margin-left: 150px;
     margin-bottom: 250px;
   }
+
+  .past-5th{
+    position: relative;
+  }
   img#past-5a {
+    width: 20%;
+    height: auto;
     margin-top: 200px;
     margin-right: 50px;
-    margin-bottom: 90px;
+    margin-bottom: 25px;
   }
+  img#arm-label {
+    width: 12%;
+    height: auto;
+    position: relative;
+    left: 28%;
+  }
+
   img#past-5b {
+    width: 25%;
+    height: auto;
     margin-top: 200px;
+    margin-bottom: -45px;
   }
   img#past-6a {
+    width: 21%;
+    height: auto;
     margin-top: 200px;
     margin-right: 50px;
     margin-bottom: 90px;
   }
   img#past-6b {
+    width: 35%;
+    height: auto;
     margin-top: 200px;
   }
   img#poem-3 {
@@ -60,20 +96,28 @@
     margin-bottom: 250px;
   }
   img#past-7 {
+    width: 29%;
+    height: auto;
     margin-top: 200px;
     margin-left: 200px;
   }
 
   img#past-8 {
+    width: 32%;
+    height: auto;
     margin-top: 200px;
   }
 
   img#past-9 {
+    width: 33%;
+    height: auto;
     margin-top: 200px;
     margin-left: 300px;
   }
 
   img#past-10 {
+    width: 24%;
+    height: auto;
     margin-top: 200px;
     margin-left: 700px;
     margin-bottom: 100px;
@@ -85,28 +129,40 @@
     margin-left: 200px;
   }
   img#past-11 {
+    width: 20%;
+    height: auto;
     margin-top: 100px;
     margin-left: 500px;
   }
 
   img#past-12 {
+    width: 26%;
+    height: auto;
     margin-top: 200px;
     margin-left: 200px;
   }
   img#past-13a {
+    width: 28%;
+    height: auto;
     margin-top: 200px;
     margin-left: 250px;
     margin-right: 70px;
   }
 
   img#past-13b {
+    width: 18%;
+    height: auto;
     margin-bottom: 10px;
   }
 
   img#past-14 {
+    width: 33%;
+    height: auto;
     margin-top: 200px;
   }
   img#past-15 {
+    width: 26%;
+    height: auto;
     margin-top: 200px;
     margin-left: 200px;
   }
@@ -118,12 +174,16 @@
   }
 
   img#past-16a {
+    width: 34%;
+    height: auto;
     margin-top: 200px;
     margin-left: 230px;
     margin-right: 100px;
     margin-bottom: 200px;
   }
   img#past-16b {
+    width: 20%;
+    height: auto;
     margin-bottom: 390px;
   }
   img#poem-6 {
@@ -228,6 +288,14 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+  }
+  img#arm-label {
+    width: 30%;
+    height: auto;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   img#past-6a {
     width: 70%;
